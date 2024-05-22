@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-const dataSchema=require('../model/dataModel');
+const dataSchema=require('../model/receiverDataModel');
 const { v4: uuidv4 } = require('uuid');
 const Redis = require('ioredis');
 const redis = new Redis({ host: process.env.REDIS_HOST });

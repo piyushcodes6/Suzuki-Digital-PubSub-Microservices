@@ -23,12 +23,8 @@ const DataSchema = new mongoose.Schema({
     inserted_at: {
         type: 'Date',
         required: true
-    },
-    modified_at: {
-        type: 'Date',
-        required: true
     }
   });
 
-  module.exports=mongoose.model('ProcessedData', DataSchema);
+  module.exports=mongoose.model('Receiver', DataSchema);
 

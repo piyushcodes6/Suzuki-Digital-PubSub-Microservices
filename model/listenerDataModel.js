@@ -23,8 +23,12 @@ const DataSchema = new mongoose.Schema({
     inserted_at: {
         type: 'Date',
         required: true
+    },
+    modified_at: {
+        type: 'Date',
+        required: true
     }
   });
 
-  module.exports=mongoose.model('Data', DataSchema);
+  module.exports=mongoose.model('Listener', DataSchema);
 
