@@ -20,8 +20,9 @@ This project demonstrates a PubSub architecture using Node.js, Express, MongoDB,
 
 To clone the repository, run the following command:
 
--git clone <your-repo-url>
--cd pubsub-microservice
+git clone <your-repo-url>
+
+cd pubsub-microservice
 
 ### Build and Run the Application
 
